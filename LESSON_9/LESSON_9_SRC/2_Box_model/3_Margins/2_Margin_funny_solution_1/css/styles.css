@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ccc;
+}
+
+.wrapper {
+    background: #f5d781;
+    border: 1px solid transparent; /* :D */
+}
+
+.inner {
+    margin: 10px 0;
+}

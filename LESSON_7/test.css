@@ -1,0 +1,52 @@
+/* input:focus {
+    background-color: rgba(47, 0, 255, 0.473);
+} */
+/* *{
+    font-size: 15px;
+}
+form p{
+    width: 30%;
+    text-align: center;
+    color: aliceblue;  
+}
+:focus {
+    background-color: rgb(20, 204, 143);
+    border-color: rgb(0, 255, 0);
+}
+input[type="text"]{
+    background-color:#2C3E50;
+    border-color: #20e65b;
+    color:white;
+    border-radius: 5px;
+    width: 30%;
+    height: 30px;
+    display: block;
+}
+input[type="email"]{
+    background-color:#2C3E50;
+    color:white;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    display: block;
+}
+select{
+    background-color:#2C3E50;
+    color:white;
+    border-radius: 5px;
+    width: 51%;
+    height: 30px;
+    display: block;
+}
+input[type="submit"]{
+    background-color:#2C3E50;
+    color:white;
+    width: 15%;
+    height: 30px;
+}
+input[type="reset"]{
+    background-color:#2C3E50;
+    color:white;
+    width: 15%;
+    height: 30px;
+} */

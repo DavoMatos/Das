@@ -1,0 +1,43 @@
+html {
+    font-size: 32px;
+}
+
+/*100*/
+#mercedes {
+    color: blue;
+}
+
+/*10*/
+.mercedes {
+    color: brown;
+}
+
+/*1*/
+strong {
+    color: red;
+}
+
+/*2*1*/
+div strong {
+    color: orange;
+}
+
+/*100 + 1*/
+#cars strong {
+    color: black;
+}
+
+/*100 + 10*/
+#cars .mercedes {
+    color: blueviolet;
+}
+
+/*100 + 100*/
+
+#cars #mercedes {
+    color: silver;
+}
+
+.test {
+    color: orangered !important;
+}

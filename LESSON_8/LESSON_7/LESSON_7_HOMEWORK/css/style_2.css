@@ -1,0 +1,100 @@
+#form_2 ::placeholder {
+    color: rgb(4, 0, 7);
+}
+.form_2 div:first-child {
+    height: 48px;
+    color: black;
+    font-size: 21px;
+    margin-top: 8px;  
+}
+#h2:hover {
+    color: greenyellow;
+}
+.name_2 {
+    background-color: #11CFF3;
+    width: 37.5%;
+    border-radius: 5px;
+    border: 4px;
+    color: snow;
+    height: 44px;
+    margin-top: 1px;
+}
+.last_name {
+    background-color: #11CFF3;
+    width: 37.5%;
+    border-radius: 5px;
+    border: 4px;
+    color: snow;
+    height: 44px;
+    margin-top: 5px;
+}
+#email_2 {
+    background-color: #11CFF3;
+    width: 37.5%;
+    border-radius: 5px;
+    border: 4px;
+    color: snow;
+    height: 44px;
+    margin-top: 7px;
+    
+}
+p #email_2:invalid{
+    border: 5px solid red;
+}
+#select_2 {
+    background-color:  #11CFF3;
+    width: 38%;
+    border-radius: 5px;
+    border: 4px;
+    height: 44px;
+    margin-top: -8px;
+    color: rgb(4, 0, 7);
+}
+.select_2> option:nth-child(2) {
+    background-color: red;
+}
+#select_2> option:nth-child(3) {
+    background-color: blue;
+}
+#select_2> option:last-child {
+    background-color: orange;
+}
+.submit_2 {
+    background-color: #11CFF3;
+    color: snow;
+    border: none;
+    height: 40px;
+    margin-top: 9px;
+    width: 100px;
+}
+.submit_2:hover {
+    color: red;
+    background-color: rgb(0, 255, 179);
+}
+#reset_2 {
+    background-color: #11CFF3;
+    color: snow;
+    border: none;
+    height: 40px;
+    margin-top: 23px;
+    width: 100px;
+}
+#reset_2:hover {
+    color: red;
+    background-color: rgb(0, 255, 179);  
+}
+.link{
+    margin-top: 9px;
+}
+a {
+    color: black;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size:22px;
+}
+a:hover {
+    color: blue;
+}
+a:active {
+    color: red;
+}

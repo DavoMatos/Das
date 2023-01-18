@@ -1,0 +1,56 @@
+/*
+    Universal Selector
+*/
+/* * {
+    background-color: orange;
+} */
+
+/*
+    Tag selector
+*/
+/* p {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+} */
+
+/*
+    class selector
+*/
+
+/* .some {
+    color: brown;
+}
+
+.test {
+    color: aqua;
+    font-style: italic;
+} */
+
+/*
+    id selector
+*/
+/* #someId {
+    font-size: 24px;
+} */
+
+/*
+    grouping selector
+*/
+/* header, footer {
+    font-size: 40px;
+} */
+
+/* #header1 {
+    background-color: green
+}
+.header {
+    background-color: yellow;
+}
+
+header {
+    background-color: orange;
+} */
+
+
+

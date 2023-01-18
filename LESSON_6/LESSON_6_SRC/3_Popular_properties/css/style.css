@@ -1,0 +1,23 @@
+/*
+    Text Properties
+*/
+p {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: underline;
+    word-spacing: 10px;
+    color: brown;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}

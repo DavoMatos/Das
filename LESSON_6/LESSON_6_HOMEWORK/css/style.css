@@ -1,0 +1,42 @@
+body {
+    line-height: 15px;
+    text-align: center;
+}
+#Name {
+    font-size: 30px;
+    line-height: 45px;
+    font-style: normal;
+}
+#paragraph {
+    font-size: 13px; 
+}
+.profile {
+    text-align: left;
+    background-color: blue;
+    color: aliceblue;
+}
+.lorem {
+    text-align: left;
+}
+#major {
+    text-align: left;
+    font-size: 16px;
+    background-color: orange;
+}
+#ul {
+    text-align: left;
+    line-height: 18px; 
+}
+.list1 {
+    list-style-type: circle;  
+}
+.list2 {
+    list-style-type:square;
+}
+#career {
+    text-align: left;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+}
+

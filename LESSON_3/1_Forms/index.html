@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form align="center">
+        <label for="name">
+            Name:
+            <input type="text" id="name" placeholder="John" required>
+        </label>
+        <br><br>
+        <label for="email">
+            Email:
+            <input type="email" id="email" placeholder="john@gmail.com" required>
+        </label>
+        <br><br>
+        <span>Your Country:</span>
+        <select>
+            <option>Georgia</option>
+            <option>Russia</option>
+            <option selected>Armenia</option>
+        </select>
+        <br><br>
+        <span>Gender:</span>
+        <br>
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender" checked> Male
+        <br><br>
+        Favorite colors:
+        <br>
+        Yellow <input type="checkbox">
+        Green <input type="checkbox" checked>
+        Orange <input type="checkbox">
+        <br><br>
+        <label for="password">
+            Password:
+            <input type="password" id="password" placeholder="Type your password">
+        </label>
+        <br><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

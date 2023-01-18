@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Areas */
+.margin_area {
+    width: 1080px;
+    height: 600px;
+    margin: 40px 0 0 40px;
+    position: absolute;
+    background-color: #e4e2e2;
+}
+
+.border_area {
+    width: 960px;
+    height: 480px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: green;
+}
+
+.padding_area {
+    width: 840px;
+    height: 360px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+}
+
+.content_area {
+    width: 720px;
+    height: 240px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+/* Headers */
+.margin_area > .header,
+.border_area > .header,
+.padding_area > .header,
+.content_area > .header {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: right;
+    font-size: 26px;
+}
+
+.border_area > .header {
+    color: white;
+}
+
+.margin_area > .header,
+.padding_area > .header,
+.content_area > .header {
+    color: black;
+}
+
+/* Vertical Lines */
+.margin_area > .vertical_line,
+.border_area > .vertical_line,
+.padding_area > .vertical_line {
+    width: 2px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.margin_area > .vertical_line,
+.padding_area > .vertical_line {
+    background-color: black;
+}
+
+.border_area > .vertical_line {
+    background-color: white;
+}
+
+.margin_area > .top_line,
+.border_area > .top_line,
+.padding_area > .top_line {
+    top: 0;
+}
+
+.margin_area > .bottom_line,
+.border_area > .bottom_line,
+.padding_area > .bottom_line {
+    bottom: 0;
+}
+
+.content_area > .vertical_line {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 2px;
+    height: 240px;
+    background-color: black;
+}
+
+/* Horizontal Lines */
+.margin_area > .horizontal_line,
+.border_area > .horizontal_line,
+.padding_area > .horizontal_line {
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.margin_area > .horizontal_line,
+.padding_area > .horizontal_line {
+    background-color: black;
+}
+
+.border_area > .horizontal_line {
+    background-color: white;
+}
+
+.margin_area > .right_line,
+.border_area > .right_line,
+.padding_area > .right_line {
+    right: 0;
+}
+
+.margin_area > .left_line,
+.border_area > .left_line,
+.padding_area > .left_line {
+    left: 0;
+}
+
+.content_area > .horizontal_line {
+    width: 720px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    background-color: black;
+}
+
+/* Vertical properties */
+.margin_area > .top_or_bottom_property,
+.border_area > .top_or_bottom_property,
+.padding_area > .top_or_bottom_property {
+    padding: 0 15px;
+    position: absolute;
+    transform: translate(-50%);
+    font-size: 18px;
+}
+
+.margin_area > .top_or_bottom_property,
+.padding_area > .top_or_bottom_property {
+    color: black;
+}
+
+.border_area > .top_or_bottom_property {
+    color: white;
+}
+
+.margin_area > .top_property,
+.border_area > .top_property,
+.padding_area > .top_property {
+    top: 18px;
+    left: calc(50% - 30px);
+}
+
+.margin_area > .bottom_property,
+.border_area > .bottom_property,
+.padding_area > .bottom_property {
+    bottom: 18px;
+    left: calc(50% - 43px);
+}
+
+.content_area > .top_property {
+    padding: 0 15px;
+    position: absolute;
+    top: 18px;
+    left: calc(50% - 38px);
+    transform: translate(-50%);
+    font-size: 18px;
+}
+
+/* Horizontal properties */
+.margin_area > .left_or_right_property,
+.border_area > .left_or_right_property,
+.padding_area > .left_or_right_property {
+    padding: 15px 0;
+    position: absolute;
+    top: calc(50% - 27px);
+    transform: translate(0, -50%);
+    font-size: 18px;
+}
+
+.margin_area > .left_or_right_property,
+.padding_area > .left_or_right_property {
+    color: black;
+}
+
+.border_area > .left_or_right_property {
+    color: white;
+}
+
+.margin_area > .left_property,
+.border_area > .left_property,
+.padding_area > .left_property {
+    left: 13px;
+}
+
+.margin_area > .right_property,
+.border_area > .right_property,
+.padding_area > .right_property {
+    right: 8px;
+}
+
+.content_area > .left_property {
+    padding: 15px 0;
+    position: absolute;
+    top: calc(50% - 27px);
+    transform: translate(0, -50%);
+    font-size: 18px;
+    left: 22px;
+}
+
+/* Vertical values */
+.margin_area > .top_or_bottom_value,
+.border_area > .top_or_bottom_value,
+.padding_area > .top_or_bottom_value {
+    padding: 0 15px;
+    position: absolute;
+    left: calc(50% + 25px);
+    transform: translate(-50%);
+    font-size: 18px;
+}
+
+.margin_area > .top_or_bottom_value,
+.padding_area > .top_or_bottom_value {
+    color: black;
+}
+
+.border_area > .top_or_bottom_value {
+    color: white;
+}
+
+.margin_area > .top_value,
+.border_area > .top_value,
+.padding_area > .top_value {
+    top: 18px;
+}
+
+.margin_area > .bottom_value,
+.border_area > .bottom_value,
+.padding_area > .bottom_value {
+    bottom: 18px;
+}
+
+.content_area > .top_value {
+    padding: 0 15px;
+    position: absolute;
+    left: calc(50% + 25px);
+    transform: translate(-50%);
+    font-size: 18px;
+    top: 18px;
+}
+
+/* Horizontal values */
+.margin_area > .left_or_right_value,
+.border_area > .left_or_right_value,
+.padding_area > .left_or_right_value {
+    padding: 15px 0;
+    position: absolute;
+    top: calc(50% + 28px);
+    transform: translate(0, -50%);
+    font-size: 18px;
+}
+
+.margin_area > .left_or_right_value,
+.padding_area > .left_or_right_value {
+    color: black;
+}
+
+.border_area > .left_or_right_value {
+    color: white;
+}
+
+.margin_area > .left_value,
+.border_area > .left_value,
+.padding_area > .left_value {
+    left: 17px;
+}
+
+.margin_area > .right_value,
+.border_area > .right_value,
+.padding_area > .right_value {
+    right: 17px;
+}
+
+.content_area > .left_value {
+    padding: 15px 0;
+    position: absolute;
+    top: calc(50% + 28px);
+    transform: translate(0, -50%);
+    font-size: 18px;
+    left: 20px;
+}

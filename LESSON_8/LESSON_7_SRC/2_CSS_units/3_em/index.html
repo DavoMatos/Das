@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            list-style-type: none;
+        }
+
+        ul.firstLevelMenu {
+            font-size: 16px;
+        }
+
+        ul.firstLevelMenu li {
+            font-size: 1.5em;
+        }
+
+        ul.firstLevelMenu li ul li {
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="firstLevelMenu">
+        <span>test</span>
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">About</a>
+        </li>
+        <li class="sub">
+            <a href="#">Products</a>
+            <ul class="secondLevelMenu">
+                <li><a href="">Samsung</a></li>
+                <li><a href="">Iphone</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>
