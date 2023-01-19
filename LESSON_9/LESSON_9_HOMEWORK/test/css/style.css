@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner_margin, .conteiner_padding {
+    margin: 40px auto;
+    font-size: 0;
+    width: 960px;
+    background-color: black;
+}
+.blok {
+    display: inline-block;
+    background-color: orange;
+    width: calc(25% - 30px);
+    height: 150px;
+    margin: 15px;
+}
+.item {
+    display: inline-block;
+    background-color: green;
+    width: 33.33%;
+    padding: 15px;
+}
+p {
+    padding: 15px;
+    height: 150px;
+    background-color: greenyellow;
+}
