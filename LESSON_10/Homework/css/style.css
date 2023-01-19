@@ -1,23 +1,26 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    list-style: none;
 }
-header {
+header, footer {
     background-color: #363636;
 }
-.header {
-    color: white;
+
+.conteiner {
     width: 960px;
     margin: 15px auto;
+    font-size: 20px;
 }
-
+.page {
+    color: white;
+}
 .href {
     display: inline-block;
-    list-style: none;
-    padding-top: 15px;
-    
+    padding: 15px 0px ;
 }
-a {
+.a {
     display: inline-block;
     color: snow;
     text-decoration: none;
@@ -29,4 +32,60 @@ a:active {
 a:hover {
     color: blue;
     background-color: aqua;
+}
+.bmw {
+    margin-top: 15px;
+    padding: 5px; 
+    border: 2px solid black;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.car1 {
+    width: 20%;
+    float: left;
+}
+.text {
+    width: 80%;
+    float: left;
+    padding-left: 10px;
+}
+.read {
+    color: black;
+    float: right;
+}
+.list1 {
+    float: left;
+    width: 25%;
+    color: snow;
+    padding: 15px 0px;
+}
+.list {
+    float: left;
+    width: calc(33.33% - 120px);
+    color: snow;
+    margin-left: 40px;
+    padding-top: 15px;
+}
+.lorem {
+    color: snow;
+    text-decoration: none;
+}
+.conteiner1 {
+    background-color: black;
+}
+.end {
+    width: 50%;
+    float: left;
+}
+.text_first {
+    color: snow;
+    padding: 10px 0px;
+}
+.text_second {
+    color: snow;
+    padding: 10px 0px;
+    text-align: right;
 }
